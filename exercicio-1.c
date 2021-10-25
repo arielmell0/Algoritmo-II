@@ -1,5 +1,5 @@
-// Escreva uma funÃ§Ã£o em C que calcule o fatorial de um nÃºmero inteiro.
-// Crie um programa que use essa funÃ§Ã£o
+// Escreva uma função em C que calcule o fatorial de um número inteiro.
+// Crie um programa que use essa função
 
 #include <stdio.h>
 #include <locale.h>
@@ -14,7 +14,7 @@ int fact(int x) {
 int main() {
 	setlocale(LC_ALL, "Portuguese");
     int fatInput;
-    printf("Calculo de fatorial\n---------------------\n\nDigite aqui um nÃºmero: ");
+    printf("Calculo de fatorial\n---------------------\n\nDigite aqui um número: ");
     scanf("%i", &fatInput);
 
 	printf("%d""! = ""%d",fatInput, fact(fatInput));

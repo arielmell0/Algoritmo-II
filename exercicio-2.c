@@ -26,5 +26,9 @@ int main() {
     printf("Digite uma data final\nDia: ");scanf("%i", &data2[0]);
     printf("Mes: ");scanf("%i", &data2[1]);
 
-    printf("%d"" dia de diferença.", difData(data1, data2));
+    if(difData(data1, data2) == 1 || difData(data1, data2) == -1){
+        printf("%d"" dia de diferença.", difData(data1, data2));
+    } else {
+        printf("%d"" dias de diferença.", difData(data1, data2));
+    }
 }

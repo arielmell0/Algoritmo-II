@@ -31,4 +31,6 @@ int main() {
     } else {
         printf("%d"" dias de diferença.", difData(data1, data2));
     }
+
+    return 0;
 }
